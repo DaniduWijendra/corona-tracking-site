@@ -23,6 +23,11 @@ public class HomeController {
     {
         return "user";
     }
+    @GetMapping("/users")
+    public String users()
+    {
+        return "user";
+    }
     @GetMapping("/admins")
     public String admin(Model model)
     {
